@@ -1132,7 +1132,7 @@ def create_admin(username, password):
     Password is stored using the same PBKDF2-SHA256
     hashing system used by authenticate_user().
     """
-    username = username.strip().lower()
+    username = username.strip().upper()
 
     if len(username) < 3 or len(username) > 80:
         return False, "Invalid username."
