@@ -1,4 +1,4 @@
-streamlit>=1.31
+streamlit>=1.37
 kaggle
 requests
 SQLAlchemy>=2.0
